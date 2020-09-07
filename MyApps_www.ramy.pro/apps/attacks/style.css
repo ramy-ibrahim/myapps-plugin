@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+#my_game{
+	width: 1000px;
+	height: 500px;
+	position: relative;
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:auto;
+	
+}
+
+
+#info{
+	position: relative;
+	top: 0px; left: 0px;
+	font-size: 20px; color: #fff; text-shadow: 0px 0px 5px #fff;
+	padding: 20px;
+}
+#text_by{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	
+}
+
+.start_but{
+	padding: 10px; 
+	font-size: 30px;
+
+	position: absolute;
+	top: 300px;
+	left: 42%;
+}
+#plane1{
+	width: 100px;
+	position: absolute;
+	bottom: 10px;
+	z-index: 100;
+	left: 40%;
+	
+  
+}
+
+
+
+.plane2{
+	width: 100px;
+	position: absolute;
+	z-index: 100;
+
+	
+  
+}
+
+#plane1 img, .plane2 img{
+	width: 100%;
+}
+
+#shoot{
+	background-color: #FFF000; width: 10px; height: 10px; box-shadow: 0px 0px 5px #FFF000;
+	position: absolute; border-radius: 10px; z-index: 90; 
+}
+
+
+@keyframes attack {
+  from {top: 0px;}
+  to {top: 400px;}
+}
