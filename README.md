@@ -1,4 +1,4 @@
-# myapps-plugin
+# myapps-Wordpress plugin
 MyApps Version 1.0.0.0
 "My Apps" is a very useful tool that allows you to install and run your online web applications on your website.
 Check applications page https://ramy.pro/#myapps
